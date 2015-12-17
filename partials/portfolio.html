@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 class="page-header">Portfolio
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#/">Home</a>
+        </li>
+        <li class="active">Portfolio</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-4" ng-repeat="work in works">
+      <img class="img-responsive" width="740" src="{{ work.image }}">
+      <h3>{{ work.name }}
+        <small><a href="{{ work.href }}">website</a></small>
+      </h3>
+      <p>{{ work.description }}</p>
+    </div>
+  </div>
+</div>
+
