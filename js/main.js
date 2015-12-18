@@ -17,6 +17,8 @@ angular.module('myapp').controller('BlogCtrl', function ( $scope, $location, $ht
     ];
     $scope.postId = $routeParams.postId;
 
+
+     $(".navbar-collapse").collapse('hide');  // hide the menu in mobile mode
 });
 
 angular.module('myapp').controller('PageCtrl', function ( $scope, $location, $http ) {
@@ -34,5 +36,7 @@ angular.module('myapp').controller('PageCtrl', function ( $scope, $location, $ht
 //        {name: "Dentista24h.it", href: "http://www.dentista24h.it", image: "/img/landing1.jpg", description: "blog, seo, ads promotion, ui, copy-writing"},
         
     ];
+
+     $(".navbar-collapse").collapse('hide'); // hide the menu in mobile mode
     
 });
