@@ -28,7 +28,6 @@ angular.module('myapp').controller('PageCtrl', function ( $scope, $location, $ht
         {name: "Email", href: "mailto:gabriele.mastrapasqua@gmail.com", text: "gabriele.mastrapasqua@gmail.com", class: "fa fa-envelope fa-2x"},
         {name: "Github", href: "https://github.com/gabrielm0", text: "gabrielm0", class: "fa fa-github-square fa-2x"},
         {name: "Linkedin", href: "https://www.linkedin.com/in/gabriele-mastrapasqua-76ba55110", text: "gabriele-mastrapasqua", class: "fa fa-linkedin-square fa-2x"},
-        {name: "Twitter", href: "https://twitter.com/gabrielm016", text: "@gabrielm0", class: "fa fa-twitter-square fa-2x"},
         
     ];
 
